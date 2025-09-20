@@ -4,7 +4,8 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     python3.10 \
     python3-pip \
-    git
+    git \
+    pip3
 
 RUN pip3 install --upgrade pip
 
